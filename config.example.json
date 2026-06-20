@@ -1,0 +1,15 @@
+{
+  "_note": "Copy this file to config.json and fill in your settings.",
+  "network": "mvc",
+  "api": {
+    "man": "https://manapi.metaid.io",
+    "show": "https://show.now/man"
+  },
+  "rpc": {
+    "baseUrl": "http://127.0.0.1:31200"
+  },
+  "buzz": {
+    "content": "Hello from my first on-chain Bot! 🤖",
+    "contentType": "text/plain;utf-8"
+  }
+}
