@@ -59,6 +59,10 @@ node index.js
 
 That's it. Your Buzz is live on the MetaWeb blockchain. 🎉
 
+<p align="center">
+  <img src="docs/images/demo.gif" alt="Demo" width="640">
+</p>
+
 ---
 
 ## Commands
@@ -98,13 +102,31 @@ Pin + Protocol + Proof = Your Data, Your Rules
 metaweb-bot-quickstart/
 ├── index.js              ← Main script (3 modes: normal / demo / status)
 ├── package.json          ← ESM, Node 18+
+├── CONTRIBUTING.md       ← How to contribute
 ├── config.example.json   ← API endpoint template
 ├── .env.example          ← Environment variable template
 ├── .gitignore
 ├── LICENSE               ← MIT
+├── scripts/
+│   └── demo-recording.sh ← Script for generating the demo GIF
+├── .github/
+│   ├── ISSUE_TEMPLATE/   ← Bug report & feature request templates
+│   ├── DISCUSSION_TEMPLATE/ ← Q&A and Show & Tell templates
+│   └── PULL_REQUEST_TEMPLATE.md
 └── docs/
-    └── tutorial.md       ← Step-by-step walkthrough
+    ├── tutorial.md       ← Step-by-step walkthrough
+    ├── concepts.md       ← Pin / Protocol / Proof explainer
+    └── images/
+        └── demo.gif      ← Terminal demo animation
 ```
+
+---
+
+## Community
+
+- **💬 [Discussions](https://github.com/newfish/metaweb-bot-quickstart/discussions)** — Ask questions, share your bots, or just say hi
+- **🐛 [Issues](https://github.com/newfish/metaweb-bot-quickstart/issues)** — Report bugs or request features
+- **🤝 [Contributing](CONTRIBUTING.md)** — Guidelines for PRs and improvements
 
 ---
 

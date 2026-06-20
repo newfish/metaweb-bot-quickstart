@@ -1,0 +1,42 @@
+title: "Q&A"
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 💬 提问之前
+
+        请先查看 [README](https://github.com/newfish/metaweb-bot-quickstart#readme) 和 [教程](https://github.com/newfish/metaweb-bot-quickstart/blob/main/docs/tutorial.md)，
+        也许你的问题已经有答案了。
+  - type: textarea
+    id: question
+    attributes:
+      label: 你的问题
+      description: 清晰描述你遇到的问题或想了解的内容。
+      placeholder: 我在运行 node index.js 时遇到了...
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: 环境信息
+      description: 你是在什么环境下运行的？
+      placeholder: macOS 14.5, Node v20.11, ...
+      value: |
+        - OS:
+        - Node 版本:
+        - 脚本模式:
+    validations:
+      required: false
+  - type: dropdown
+    id: category
+    attributes:
+      label: 类别
+      options:
+        - 安装/配置问题
+        - 运行报错
+        - 概念理解
+        - 功能建议
+        - 其他
+    validations:
+      required: true

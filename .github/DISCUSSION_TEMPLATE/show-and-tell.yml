@@ -1,0 +1,32 @@
+title: "Show & Tell"
+labels: ["show-and-tell"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 🎉 秀出你的链上 Bot！
+
+        用 `metaweb-bot-quickstart` 做了什么好玩的东西？分享出来让大家看看！
+  - type: input
+    id: buzz-link
+    attributes:
+      label: 你的 Buzz 链接
+      description: 贴一下你发的链上 Buzz 地址
+      placeholder: https://show.now/...
+    validations:
+      required: false
+  - type: textarea
+    id: description
+    attributes:
+      label: 你做了什么？
+      placeholder: 我修改了 index.js 让 Bot 每天自动发一条天气信息...
+    validations:
+      required: true
+  - type: input
+    id: github-link
+    attributes:
+      label: 代码仓库（可选）
+      description: 你的 fork 或衍生项目地址
+      placeholder: https://github.com/yourname/your-bot
+    validations:
+      required: false
