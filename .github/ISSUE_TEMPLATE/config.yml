@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 📖 教程 & 文档
+    url: https://github.com/newfish/metaweb-bot-quickstart#readme
+    about: 先看看 README 和教程，也许你的问题已经有答案了
+  - name: 💬 社区讨论
+    url: https://github.com/newfish/metaweb-bot-quickstart/discussions
+    about: 欢迎在 Discussion 里提问、分享你的链上 Bot 体验
