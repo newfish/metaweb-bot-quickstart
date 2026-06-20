@@ -126,6 +126,21 @@ metaweb-bot-quickstart/
 
 ---
 
+## Community
+
+We're building this in the open — and you're invited.
+
+| Where | What |
+|---|---|
+| 💬 [Discussions](https://github.com/newfish/metaweb-bot-quickstart/discussions) | Ask questions, share your on-chain Bot, suggest ideas |
+| 🐛 [Issues](https://github.com/newfish/metaweb-bot-quickstart/issues) | Report bugs or request features |
+| 📖 [Contributing Guide](CONTRIBUTING.md) | How to contribute code, docs, or ideas |
+| 🎯 [Roadmap](https://github.com/newfish/metaweb-bot-quickstart/issues) | See what's coming next |
+
+**First time contributing?** Check out our [Contributing Guide](CONTRIBUTING.md) — we welcome contributors of all skill levels.
+
+---
+
 ## License
 
 MIT — use it, fork it, build on it. MetaWeb is for everyone.
